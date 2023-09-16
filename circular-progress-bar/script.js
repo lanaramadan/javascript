@@ -1,16 +1,16 @@
-var number = document.getElementById("number");
-var number2 = document.getElementById("number2");
+let number = document.getElementById("number");
+let number2 = document.getElementById("number2");
 
-// var circle = document.getElementById("number");
-
-
-var percentage = 40
-var percentage2 = 65
+// let circle = document.getElementById("number");
 
 
-var values = {number:percentage, number2: percentage2};
+let percentage = 40
+let percentage2 = 65
 
-var counter = 0;
+
+let values = {number:percentage, number2: percentage2};
+
+let counter = 0;
 
 intervalId = setInterval(() => {
 

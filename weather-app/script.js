@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
             document.querySelector(".weather").style.display = "none";
         }
         else{
-            var data = await response.json();
+            let data = await response.json();
 
             document.querySelector(".city").innerHTML = data.name;
             document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°c";

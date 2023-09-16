@@ -1,10 +1,10 @@
-var lists = document.getElementsByClassName("list");
-var rightBox = document.getElementById("right");
-var leftBox = document.getElementById("left");
+let lists = document.getElementsByClassName("list");
+let rightBox = document.getElementById("right");
+let leftBox = document.getElementById("left");
 
 for (item of lists) {
     item.addEventListener("dragstart", function(e){
-        var selected = e.target;
+        let selected = e.target;
 
         rightBox.addEventListener("dragover", function(e){
             e.preventDefault();
